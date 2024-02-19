@@ -1,0 +1,48 @@
+
+.UserHeader_cont{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(37, 113, 246);
+
+}
+
+.logo{
+    width: 6%;
+    padding: 10px;
+
+
+}
+.logo img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.UserHeader_cont .title{
+    width: 76%;
+    text-align: center;
+}
+
+.UserHeader_cont .title h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+
+}
+
+.UserHeader_cont .User_functions{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.UserHeader_cont .User_functions svg{
+    font-size: 30px;
+    font-weight: bold;
+}

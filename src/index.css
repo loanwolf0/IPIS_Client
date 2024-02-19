@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.footer{
+    margin-top: 100px;
+}
+
+.App {
+    height: 100%;
+}
+.App .Home{
+    height: 80%;
+}
+.App .footer{
+    height: 20%;
+}
